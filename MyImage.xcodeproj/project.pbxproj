@@ -11,6 +11,8 @@
 		0E40C48227D4E68C007B11EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E40C48127D4E68C007B11EC /* ContentView.swift */; };
 		0E40C48427D4E68F007B11EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E40C48327D4E68F007B11EC /* Assets.xcassets */; };
 		0E40C48727D4E68F007B11EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E40C48627D4E68F007B11EC /* Preview Assets.xcassets */; };
+		0E40C48E27D4E7B1007B11EC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E40C48D27D4E7B1007B11EC /* ImageView.swift */; };
+		0E40C49027D84D62007B11EC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E40C48F27D84D62007B11EC /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		0E40C48127D4E68C007B11EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E40C48327D4E68F007B11EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E40C48627D4E68F007B11EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E40C48D27D4E7B1007B11EC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		0E40C48F27D84D62007B11EC /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0E40C49127D86287007B11EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		0E40C47E27D4E68C007B11EC /* MyImage */ = {
 			isa = PBXGroup;
 			children = (
+				0E40C49127D86287007B11EC /* Info.plist */,
 				0E40C47F27D4E68C007B11EC /* MyImageApp.swift */,
 				0E40C48127D4E68C007B11EC /* ContentView.swift */,
+				0E40C48F27D84D62007B11EC /* WebView.swift */,
+				0E40C48D27D4E7B1007B11EC /* ImageView.swift */,
 				0E40C48327D4E68F007B11EC /* Assets.xcassets */,
 				0E40C48527D4E68F007B11EC /* Preview Content */,
 			);
@@ -137,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E40C48E27D4E7B1007B11EC /* ImageView.swift in Sources */,
+				0E40C49027D84D62007B11EC /* WebView.swift in Sources */,
 				0E40C48227D4E68C007B11EC /* ContentView.swift in Sources */,
 				0E40C48027D4E68C007B11EC /* MyImageApp.swift in Sources */,
 			);
@@ -272,6 +282,7 @@
 				DEVELOPMENT_TEAM = X37BT8TS5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyImage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +312,7 @@
 				DEVELOPMENT_TEAM = X37BT8TS5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyImage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
